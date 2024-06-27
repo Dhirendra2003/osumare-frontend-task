@@ -1,0 +1,376 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.button {
+  background-color: white;
+  border: 1px black solid;
+  font-weight: bolder;
+  border-radius: 30px;
+  padding: 0px 40px;
+  margin: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.452);
+  max-height: 100px;
+  backdrop-filter: blur(50px);
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+}
+
+.bg1 {
+  background-image: url("./assets/bg1.png");
+   background-repeat: no-repeat;
+  background-position:  0 -200px ;
+  background-size: cover;
+  width: 60%;
+  padding:10% 20%;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.get{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  border-radius: 30px;
+  border: none;
+}
+.get2{
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  font-size: medium;
+  border-radius: 30px;
+  border: none;
+}
+.home-img{
+  width: 70%; object-fit: contain; position: relative; top: 100px
+}
+.div2{
+  padding-top: 100px;
+  gap: 50px;
+  background:linear-gradient(white, rgb(252, 252, 252));
+}
+
+.side-img{
+  height: 50%; object-fit: contain
+}
+.split-sec{
+  display: flex; padding: 5% 15%;
+  gap: 10%;
+}
+.even-spaced *{
+  margin: 20px;
+}
+
+.div3{
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  justify-content: center;
+  display: block;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5%;
+}
+.card {
+  width: 80%;
+  min-height: 200px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+
+.horz-card {
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  min-height: 80px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
+}
+.centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 30px;
+
+}
+
+.inq-card {
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  width: 80%;
+}
+.left-align{
+  text-align: left; margin-left: 20px
+}
+
+.overlap-div{
+  background-color: rgba(128, 128, 128, 0.06);
+  width: 40%;
+  padding: 10%;
+  border-radius: 30px;
+  position: relative;
+  left: -5%;
+  padding-right: 20%;
+}
+.teacherimg{
+   
+   height: 450px;
+}
+.merge-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  left: 2.5%;
+  position: relative;
+
+  
+}
+.centered2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  
+
+}
+.even-spaced2{
+  margin: auto;
+}
+.even-spaced2 *{
+  margin: 20px;
+}
+
+.side-img2{
+  width:  40%; object-fit: contain
+}
+.div5{
+  
+  margin:5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  align-self: center;
+  justify-content: center;
+}
+.grid-set1{
+  display: grid; grid-template-columns: repeat(2, 1fr); 
+  
+}
+.grid-set1 >div{
+  
+  margin: 20px 0 ;
+  position: relative;
+  margin:60px auto;
+}
+.grid-set1 >div>*{
+  
+  margin:15px auto;
+}
+
+.grad-bg {
+  background-image: url("./assets/grad-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.grad-bg>div{
+  width: 50%;
+  text-align: center;
+}
+.grad-bg>div>*{
+  margin: 20px;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 60%;
+  margin: auto;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+.vid-nav {
+  border: none;
+  background-color: transparent;
+}
+
+.vid-nav * {
+  max-height: 40px;
+}
+
+.faq-card {
+  background-color: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.323);
+  width: 60%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.faq-card > * {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.413);
+  display: flex;
+}
+
+.faq-q > img {
+  object-fit: contain;
+  margin: 0 0 0 auto;
+  ;
+}
+.faq-selected{
+  color: white;
+  background-color: blue;
+  box-shadow: rgb(129, 169, 255) 0 5px 10px;
+  z-index: 20;
+
+}
+.faq-selected>img{
+  filter: invert();
+  rotate: 180deg
+}
+form{
+  background:white;padding: 20px;box-shadow: 0 5px 20px rgba(0, 0, 0, 0.097);border-radius: 10px;display: flex;flex-direction: column;gap: 20px;
+}
+form input,form textarea{
+  border: 1px lightgray solid;
+  padding: 10px ;
+  border-radius: 5px;
+  background-color: rgba(240, 240, 240, 0.623);
+}
+form div label{
+text-align: left;
+  font-weight: bold;
+}
+.form-split{
+display: flex;
+flex-direction: column;
+width: 50%;
+height: max-content;
+
+}
+.form-container{
+  display: flex ;gap: 20px;width: 60vw;justify-content: center;
+}
+.socials{
+  display: flex;background-color: #c4defb; margin: 5%;padding: 30px;gap: 15%;border-radius: 25px;
+}
+.socials *{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+.socials a{
+  
+  display: flex;
+}
+.grid-main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.logo2{
+  width: 100px; mix-blend-mode:multiply;
+}
+@media only screen and (max-width: 700px) {
+  *{
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav{
+    flex-direction: row;
+  }
+  .grid-main{
+    display: flex;flex-direction: column; 
+  }
+  .horz-card{
+    width: 100%;
+  }
+  .grid-set1{
+    display: grid; grid-template-columns: repeat(1, 1fr); 
+  }
+  .socials{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .socials img{
+    height: 30px;
+    width: fit-content;
+  }
+  .socials *{
+    display: flex;
+  }
+  .form-split{
+    width: 100%;
+  }
+  .merge-sec{
+    position: relative;
+    left: 0;
+  }
+  .overlap-div{
+   
+    width: 90%;
+    padding: 5%;
+    border-radius: 30px;
+    position: relative;
+    left: 0%;
+    padding-right: 0%;
+  }
+  .teacherimg{
+    position: relative;
+    left: 0%;
+    width: 90%;
+    height: auto;
+  }
+  
+  .side-img{
+    width: 70%;
+  }
+  .logo2{
+    height: 100px;
+  }
+}
